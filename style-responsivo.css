@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Fraunces:opsz@9..144&display=swap');
+*{
+    margin: 0 auto;
+}
+main{
+    position: relative;
+    width: 50rem;
+    height: auto;
+}
+header{
+    position: relative;
+    float: left;
+    width: 50rem;
+    height: auto;
+    background-color: #3ebfff;
+}
+#esq-logo{
+    position: relative;
+    float: left;
+    width: 18.75rem;
+    height: 7.5rem;
+}
+#esq-logo svg{
+    padding-top: 2.8125rem;
+    padding-left: 3.125rem;
+}
+#dir-menu{
+    position: relative;
+    float: left;
+    width: 31.25rem;
+    height: 7.5rem;
+}
+#menu li{
+    position: relative;
+    width: 25%;
+    float: left;
+    list-style-type: none;
+    line-height: 6.875;
+}
+#menu li a{
+    color: white;
+    font-size: 18px;
+    font-family: "Barlow", sans-serif;
+    text-decoration: none;
+}
+header h2{
+    position: relative;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Fraunces', serif;
+    background-color: #3ebfff;
+    color: white;
+    text-transform: uppercase;
+    float: left;
+    width: 100%;
+    height: 7.5rem;
+}
+#a{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 20.875rem;
+}
+#a h3{
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    padding: 50px;
+}
+#a p{
+    text-align: justify;
+    margin-bottom: 50px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: "Barlow", sans-serif; 
+    padding: 0px 40px 0px 40px;
+}
+#ovo{
+    width: 400px;
+    height: 334px;
+}
+#b{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 20.875rem;
+    background-color: #ffd600;
+}
+#c{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 20.875rem;
+    background-color: #ff7366;
+}
+#taça{
+    width: 400px;
+    height: 334px;
+}
+#d{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 20.875rem;
+
+}
+#d h3{
+    text-align: center;
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    font-size: 26px;
+    padding: 50px;
+}
+#d p{
+    text-align: justify;
+    margin-bottom: 50px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: "Barlow", sans-serif; 
+    padding: 0px 40px 0px 40px;
+}
+
+#e{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 20.875rem;
+    background-image: url(./img/cereja.jpg);
+    background-size: cover;
+    font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
+    color: #19536b;
+
+}
+
+#f{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 20.875rem;
+    background-image: url(./img/mixirica.jpg);
+    background-size: cover;
+    font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
+    color: #19536b;
+}
+.desc-h3{
+    position: relative;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 200px;
+}
+.desc-p{
+    position: relative;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 20px;
+    font-size: .85rem;
+    color: #19536b;
+}
+#depoimentos{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 37.5rem;
+}
+#titulo-dep{
+    text-align: center;
+    line-height: 6.25rem;
+    text-transform: uppercase;
+    color: #a7abae;
+    font-family: 'Fraunces', serif;
+    letter-spacing: .25rem;
+    font-size: .9rem;
+}
+#dep{
+    position: relative;
+    float: left;
+    width: 33.33%;
+    height: auto;
+}
+#dep p{
+    padding: 30px 30px;
+    text-align: center;
+    font-size: .75rem;
+    color: #818498;
+    font-family: "Barlow", sans-serif;
+}
+#dep h3{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 28px;
+    font-family: 'Fraunces', serif;
+}
+.foto-clientes{
+    border-radius: 100px;
+    width: 20%;
+    position: relative;
+    left: calc(40%);
+    margin-top: 50px;
+}
+#imagens-inf{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 12.5rem;
+}
+.img{
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 12.5rem;
+}
+.img img{
+    width: 200px;
+    height: 200px;
+}
+footer{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 12.5rem;
+    background-color: #90d4c5;
+}
+#logo-inf{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 5rem;
+    left: 335px;
+    padding-top: 35px;
+}
+#menu-footer{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 5rem;
+    background-color: #90d4c5;
+}
+#menu-footer ul li{
+    position: relative;
+    text-align: center;
+    width: 13%;
+    float: left;
+    top: -25px;
+    left: 210px;
+    list-style: none;
+}
+#menu-footer ul li a{
+    color: #5a636c;
+    font-family: "Barlow", sans-serif;
+    text-decoration: none;
+
+}
+#social-midia{
+    position: relative;
+    float: left;
+    top: -50px;
+    width: 100%;
+    height: 5rem;
+    background-color: #90d4c5;
+}
+#social-midia ul li{
+    position: relative;
+    text-align: center;
+    float: left;
+    left: 290px;
+    width: 5%;
+    list-style-type: none;    
+}
+#social-midia ul li a{
+    text-decoration: none;
+}

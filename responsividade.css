@@ -1,0 +1,53 @@
+/* ### Desktop largura mínima 780px*/
+@media screen and (min-width: 780px) {
+    /*body {background-color: black;}*/
+}
+
+/* ### Tablet largura máxima 779px e mínima 481px*/
+@media screen and (min-width: 581px) and (max-width: 779px) {
+    main{width: 100%;}
+    header{width: 100%;}
+    #topo{width: 100%;}
+    #esq-logo{width: 40%;}
+    #menu{width: 60%;}
+    #a{width: 100%; }
+    #b{width: 100%;}
+    #b img{
+        width: 55%;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        background-color: #ffd600;
+    }
+    #c{width: 100%;}
+    #c img{
+        width: 55%;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        background-color: #ff7366;
+    }
+    #d{width: 100%;}
+    #e{width: 100%;}
+    #f{width: 100%;}
+    #dep{width: 100%;}
+    #imagens-inf{width: 100%;}
+    #img{width: 100%;} 
+    #menu-footer{width: 100%;}
+    #logo-inf{width: 100%;}
+}
+
+/* ### celular largura máxima 580px*/
+@media screen and (max-width: 580px){
+    main{width: 100%;}
+    header{width: 100%;}
+    #topo{width: 100%;}
+    #esq-logo{width: 40%;}
+    #menu{width: 60%;}
+    #a{width: 100%;}
+    #b{width: 100%;}
+    #c{width: 100%;}
+    #d{width: 100%;}
+    #e{width: 100%;}
+    #f{width: 100%;}
+}
